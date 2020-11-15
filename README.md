@@ -1,24 +1,43 @@
-# vue-frontend
 
-## Project setup
-```
-npm install
-```
+# learn-Vue 
+## Node
+check installed node
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`node --version`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Install:
+g is mean glabal
 
-### Lints and fixes files
-```
-npm run lint
-```
+`npm install -g @vue/cli`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+OR
+
+`yarn global add @vue/cli`  	
+
+## Create a project:
+
+`vue create my-project`
+
+OR
+
+`vue ui`
+
+
+
+
+
+
+
+# server 
+
+## check json-sever version
+`json-server -version`
+
+## run json serv
+create file in public folder and open cmd on public folder  
+
+`json-server --watch db.json`
+
+## view data 
+put slash and name
+ex. http://localhost:3000/products
